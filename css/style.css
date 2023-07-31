@@ -1,0 +1,63 @@
+
+body{    
+     margin: 0px;
+     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+   
+    border-radius: 10px;
+    width: 400px;
+    margin: 5% auto 0 34%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 9px 14px 32px 2px rgba(107, 105, 107, 0.59);
+    color: rgb(13, 47, 47);
+    text-shadow: 0px 0px 5px rgba(93, 81, 81, 0.7)
+}
+h1{
+    text-align: center;
+    color: rgb(13, 47, 47);
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #fff;
+}
+
+button{
+    color: aliceblue;
+    background-color: rgb(37, 80, 160);
+    border: solid 1px rgb(37, 80, 160);
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.inputitems{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.inputitems input{
+    border: solid 1px rgb(8, 8, 8);
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 8px;
+}
+.inputitems input:focus{
+    outline: 0;
+}
+
+.inputitems .error{
+ color: red;
+ font-size: 12px;
+ margin-top: 4px;
+}
+
+.inputitems.succes input{
+    border-color: rgb(14, 170, 14);
+}
+.inputitems.error input{
+    border-color: rgb(223, 16, 16);
+}
